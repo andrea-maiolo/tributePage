@@ -1,0 +1,66 @@
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(231, 233, 235);
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#img-div {
+    background-color: rgb(190, 248, 123);
+    padding:20px;
+    margin:0;
+}
+
+#image{
+    max-width: 100%;
+    height:auto;
+  display:block;
+}
+
+/* @media (max-width: 300px){
+
+    #img-div{
+        width:100px;
+    }
+
+}
+
+@media(min-height: 300px){
+
+    #img-div{
+        height: 100px;
+    }
+
+} */
+
+#img-caption {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1em;
+}
+
+#tribute-info{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title2 {
+    font-size: 0,7em;
+}
+
+#end{
+    padding:12px;
+    background-color: rgb(190, 248, 123);
+}
+
+#p-link {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
